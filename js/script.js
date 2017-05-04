@@ -1,11 +1,11 @@
-function getTriangleArea(a,h){
+function getTriangleArea(a,h) {
 
-  if (a<=0 || h<=0){
+  if (a <= 0 || h <= 0){
     console.log('błedna wartosc');
     return;
   }
-  else if (a>0 && h>0){
-    var value = (a*h)/2;
+  else (a > 0 && h > 0){
+    var value = (a * h) / 2;
     console.log('pole trojkata ' + value)
     return;
   }
